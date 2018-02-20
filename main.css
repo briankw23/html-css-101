@@ -1,0 +1,166 @@
+
+/*General Styling*/
+
+
+*{
+    /*border: 1px solid red;*/
+}
+
+body{
+background-color: #999999;
+position: relative;
+}
+
+h1{
+    padding-left: 15px;
+    line-height: 30px;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0.1) 2px,
+        rgba(0,0,0,0.1) 4px
+    )
+    }
+
+  ul {
+    list-style:none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }  
+
+  li {
+      border-bottom: dotted 1px black;
+      margin: 10px 0 0 8px;
+  }
+
+
+  h3  {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #574d33;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.left-article p{
+    margin: 5px 40px 15px 40px;
+    text-align: justify;
+    color: #786A47;
+
+}
+
+footer{
+background-color: #679DC0;
+line-height: 34px;
+text-align: center;
+bottom: 0;
+}
+
+/*Grid________________________________________________________*/
+.main-contanier{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column-container{
+    display: table;
+}
+
+.left-column{
+    width: 70%;
+    /*float: left;*/
+    background-color: #E9E9E7;
+}
+
+.right-column {
+    width: 30%;
+    /*float: right;*/
+    background-color: #998A67;
+
+}
+
+.column {
+    display: table-cell;
+}
+/* images_________________________________________________ */
+img {
+    width: 100%;
+    display: inherit;
+}
+/* right column- sidebar */
+.right-column li a {
+    font-weight: bold;
+    color: #e5d9bc;
+    list-style-position: inside;
+    display: list-item;
+    list-style-type: disc;
+}
+.right-column li a:hover {
+    color: aqua;
+}
+.right-column li a.designer-name{
+    font-weight: bold;
+    color: #595339;
+    display: inline;
+}
+
+.right-column li a.designer-name:hover {
+    color: aqua;
+}
+
+/* custom______________________________________________________ */
+
+.whole-div-shadow {
+box-shadow: 0 0 10px #999999;
+}
+
+.float-left{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.float-right{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+#summary p {
+text-align: right;
+margin-top: 30px;
+}
+
+#authors p{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 150px;
+}
+
+#authors{
+    background-image: url('https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-bottom: 0;
+}
+
+.title {
+font-size: 25px;
+color: #d8d6C7;
+transform: rotate(-90deg);
+transform-origin: top left;
+position: absolute;
+left: 20px;
+top: 260px;
+}
+
+.footer-claw {
+position: relative; 
+bottom: 0;
+width: 90%; 
+}
+
+
